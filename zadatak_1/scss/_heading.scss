@@ -1,0 +1,43 @@
+.header-row {
+
+    .header-image-div {
+        height: 500px;
+        background-image: url(../img/01/heading.jpg);
+        background-size: cover;
+        justify-content: center;
+        font-family: $font-headline;
+        font-weight: bold;
+    
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        h3 {
+            color: $font-color-gray;
+            font-size: 1.5rem;
+        }
+    
+        h2 {
+            color: $color-purple;
+            font-size: 4rem;
+        }
+    }
+
+    .header-text {
+        background-color: $color-blue;
+        color: #fff;
+        padding: 40px 20px;
+        position: absolute;
+        margin-left: 60%;
+
+        p {
+            padding-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}
+
