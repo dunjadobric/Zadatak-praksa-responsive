@@ -1,0 +1,55 @@
+body {
+	box-sizing: border-box;
+}
+
+h6 {
+	color: gray;
+}
+
+.header a {
+	text-decoration: none;
+	color: gray;
+}
+
+.header a:hover {
+	color: gray;
+	text-decoration: underline 3px solid red;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination ul li {
+	list-style: none;
+	padding: 5px;
+	min-width: 30px;
+	text-align: center;
+}
+
+.pagination a {
+	display: block;
+	text-decoration: none;
+	color: gray;
+}
+
+.pagination a:hover {
+	background-color: red;
+}
+
+.card:hover {
+	background-color: gray;
+}
+
+.reading {
+	background-color: #e2e2e2;
+	padding: 20px;
+}
