@@ -1,0 +1,16 @@
+.gallery {
+    margin: 40px 20px;
+    justify-content: center;
+
+    .gallery-item {
+        width: 350px;
+        
+        a {
+            img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

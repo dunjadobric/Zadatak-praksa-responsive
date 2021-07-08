@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'variables';
+@import 'heading';
+@import 'content';
+@import 'sub-content';
+@import 'gallery';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        margin: inherit;
+        padding: inherit;
+        font-family: $font-text;
+    }
+}

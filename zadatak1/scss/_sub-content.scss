@@ -1,0 +1,38 @@
+.sub-content {
+    background-color: $bcg-color-gray;
+    color: $font-color-darkgray;
+    justify-content: space-evenly;
+    padding: 30px;
+
+    .sub-content-text {
+
+        h3 {
+            font-weight: bold;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+        }
+    }
+
+    .img-sub-content {
+        width: 350px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 776px) {
+    .sub-content {
+    
+        .sub-content-text {
+    
+            p {
+                padding-bottom: 20px;
+            }
+        }
+
+    }
+}
