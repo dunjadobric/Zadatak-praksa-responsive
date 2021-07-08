@@ -163,15 +163,27 @@ table {
   .sub-content .sub-content-text p {
     padding-bottom: 20px; } }
 .gallery {
-  margin: 40px 20px;
+  margin: 20px 0;
   justify-content: center; }
   .gallery .gallery-item {
     width: 350px; }
     .gallery .gallery-item a img {
       max-width: 100%;
-      height: auto;
-      margin-bottom: 10px; }
+      height: auto; }
 
+@media only screen and (max-width: 1130px) {
+  .gallery .gallery-item {
+    width: 250px; } }
+@media only screen and (max-width: 800px) {
+  .gallery .gallery-item {
+    width: 200px; } }
+@media only screen and (max-width: 650px) {
+  .gallery {
+    flex-direction: column; }
+    .gallery .gallery-item {
+      width: 200px; }
+      .gallery .gallery-item a img {
+        margin: 5px; } }
 * {
   margin: 0;
   padding: 0;
