@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topContent {
+     display: flex;     
+ }
+
+.bottomContent {
+    display: flex;     
+}
+.navBar {
+    margin: 30px;
+    
+} 
+
+.navBar button:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: black;
+    cursor: pointer;
+ 
+} 
+.navBar button {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.card {
+     margin: 10px;
+     width: 100%;
+    height: auto;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1024px) {
+
+    .topContent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .card {
+        width: 30%;
+        text-align: center;
+    }
+    .navbar button {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .side,
+    .main {
+        text-align: center;
+    }
+
+    img {
+        max-width: max-content;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .topContent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .card {
+        width: 40%;
+        text-align: center;
+    }
+
+    .navbar button {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .side,
+    .main {
+        text-align: center;
+    }
+
+    img {
+        max-width: max-content;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .topContent {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar button {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .side,
+    .main {
+        text-align: center;
+    }
+
+    img {
+        max-width: max-content;
+    }
+}
